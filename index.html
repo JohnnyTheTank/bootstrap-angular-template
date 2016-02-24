@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="app.js"></script>
+</head>
+<body ng-app="app" ng-controller="appController">
+
+<div class="container">
+    <br>
+    <div class="row event-row" ng-class="getClass($index)" ng-repeat="item in events">
+        <div class="col-xs-3">{{item.date | date}}</div>
+        <div class="col-xs-3">{{item.city | uppercase}}</div>
+        <div class="col-xs-6">{{item.festival}}</div>
+        {{$index}}
+    </div>
+</div>
+
+</body>
+</html>

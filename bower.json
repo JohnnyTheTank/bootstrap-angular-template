@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap-angular-template",
+  "homepage": "https://github.com/JohnnyTheTank/bootstrap-angular-template",
+  "authors": [
+    "Jonathan Hornung <jonathan.hornung@gmail.com>"
+  ],
+  "description": "template with angular and bootstrap",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.0"
+  }
+}

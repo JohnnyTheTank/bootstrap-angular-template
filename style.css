@@ -1,0 +1,13 @@
+.event-row+.event-row {
+    border-top:1px solid black;
+}
+
+.event-row-even {
+    background: #333333;
+    color:white;
+}
+
+.event-row-bla {
+    background: red;
+    color:white;
+}
