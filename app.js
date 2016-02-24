@@ -1,7 +1,5 @@
 angular.module('app', [])
     .controller('appController', function ($scope) {
-        $scope.aged = true;
-
         $scope.events = [
             {
                 date: new Date("April 06, 2016"),
