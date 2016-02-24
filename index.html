@@ -19,11 +19,10 @@
 
 <div class="container">
     <br>
-    <div class="row event-row" ng-class="getClass($index)" ng-repeat="item in events">
+    <div class="row event-row" ng-class-even="'event-row-even'" ng-repeat="item in events">
         <div class="col-xs-3">{{item.date | date}}</div>
         <div class="col-xs-3">{{item.city | uppercase}}</div>
         <div class="col-xs-6">{{item.festival}}</div>
-        {{$index}}
     </div>
 </div>
 

@@ -2,15 +2,6 @@ angular.module('app', [])
     .controller('appController', function ($scope) {
         $scope.aged = true;
 
-        $scope.getClass = function (_index) {
-            if(_index%2) {
-                return 'event-row-even';
-            }
-            if(_index%3) {
-                return 'event-row-bla';
-            }
-        };
-
         $scope.events = [
             {
                 id: $scope.index--,
