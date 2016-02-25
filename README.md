@@ -1,2 +1,4 @@
 # bootstrap-angular-template
-bootstrap-angular-template
+* bootstrap
+    * jquery
+* angular

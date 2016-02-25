@@ -1,5 +1,6 @@
-angular.module('app', [])
-    .controller('appController', function ($scope) {
+angular.module('app', []);
+
+angular.module('app').controller('appController', function ($scope) {
         $scope.events = [
             {
                 date: new Date("April 06, 2016"),
