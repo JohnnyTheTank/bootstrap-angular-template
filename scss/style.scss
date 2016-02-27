@@ -1,0 +1,27 @@
+$vibrant: white;
+
+@import "helper";
+
+.pb {
+    border: 1px solid black;
+}
+
+.padding {
+    padding: 10px;
+}
+
+body {
+    background-color: $vibrant;
+
+    .event-row {
+        & + .event-row {
+            border-top: 1px solid black;
+        }
+        &.event-row-even {
+            background: #333333;
+            color: white;
+            @include box-shadow(0 0 10px 2px red);
+        }
+    }
+
+}
