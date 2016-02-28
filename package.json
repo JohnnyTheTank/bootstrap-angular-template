@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-angular-template",
+  "version": "1.0.0",
+  "description": "* bootstrap     * jquery * angular",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyTheTank/bootstrap-angular-template.git"
+  },
+  "author": "Jonathan Hornung <jonathan.hornung@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnnyTheTank/bootstrap-angular-template/issues"
+  },
+  "homepage": "https://github.com/JohnnyTheTank/bootstrap-angular-template#readme"
+}
