@@ -6,8 +6,13 @@
 * angular
 
 ## installation
-* `$ bower update`
-* `$ npm update`
+```{engine='bash'}
+$ bower update
+$ npm update
+```
+
 
 ## usage
-* `$ gulp`
+```{engine='bash'}
+$ gulp
+```
