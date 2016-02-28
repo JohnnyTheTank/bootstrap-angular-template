@@ -8,4 +8,6 @@
 ## installation
 * `$ bower update`
 * `$ npm update`
+
+## usage
 * `$ gulp`

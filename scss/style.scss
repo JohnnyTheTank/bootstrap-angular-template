@@ -20,7 +20,7 @@ body {
         &.event-row-even {
             background: #333333;
             color: white;
-            @include box-shadow(0 0 10px 2px red);
+            @include box-shadow(0 0 10px 2px green);
         }
     }
 }
