@@ -11,7 +11,6 @@ $ bower update
 $ npm update
 ```
 
-
 ## usage
 ```{engine='bash'}
 $ gulp

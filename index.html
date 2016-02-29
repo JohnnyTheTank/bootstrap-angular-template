@@ -37,8 +37,8 @@
 <div class="container">
 
     <div class="row event-row" ng-class-even="'event-row-even'" ng-repeat="item in events">
-        <div class="col-xs-6 col-md-3">{{item.date | date}}</div>
-        <div class="col-xs-6 col-md-3">{{item.city | uppercase}}</div>
+        <div class="col-xs-3">{{item.date | date}}</div>
+        <div class="col-xs-3">{{item.city | uppercase}}</div>
         <div class="col-md-6">{{item.festival}}</div>
     </div>
 
