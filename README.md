@@ -1,8 +1,9 @@
 # bootstrap-angular-template
 
 ## dependencies
-* bootstrap
-    * jquery
+* bootstrap-sass
+* jquery
+* font-awesome
 * angular
 
 ## installation
