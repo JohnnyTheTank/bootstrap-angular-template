@@ -12,6 +12,7 @@
     "jquery": "^2.2.4",
     "bootstrap-sass": "^3.3.6",
     "angular": "^1.5.7",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "bootstrap-block-grid": "^1.1.7"
   }
 }
