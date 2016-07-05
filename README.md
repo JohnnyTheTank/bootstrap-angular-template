@@ -17,6 +17,3 @@ $ npm update
 ```{engine='bash'}
 $ gulp
 ```
-
-## finish
-change your projectname
