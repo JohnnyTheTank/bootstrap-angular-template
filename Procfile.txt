@@ -1,0 +1,2 @@
+web: bower update
+web: npm update
