@@ -1,6 +1,6 @@
 /bower_components
 /.idea
-/scss/.sass-cache
+/public/scss/.sass-cache
 /config.codekit
 /node_modules/
 node_modules/
