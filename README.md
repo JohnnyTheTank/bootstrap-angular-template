@@ -1,5 +1,7 @@
 # bootstrap-angular-template
 
+https://bootstrap-angular-template.herokuapp.com/
+
 ## installation
 ```{engine='bash'}
 $ bower update
