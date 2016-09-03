@@ -28,7 +28,7 @@ gulp.task('js-vendor', function(){
 });
 
 // Static Server + watching scss/html files
-gulp.task('serve', [ 'js-vendor', 'sass'], function() {
+gulp.task('serve', [ 'create'], function() {
     browserSync.init({
         server: "./"
     });
@@ -48,5 +48,7 @@ gulp.task('sass', function() {
         .pipe(gulp.dest("css"))
         .pipe(browserSync.stream());
 });
+
+gulp.task('create', ['js-vendor', 'sass']);
 
 gulp.task('default', ['serve']);
